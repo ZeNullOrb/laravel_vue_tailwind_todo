@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="/css/app.css">
     </head>
     <body>
-        <div class="flex h-screen">
+        <div class="flex h-screen" id="app">
             <div class="w-1/4
                 border-r-2 border-gray-600 bg-gray-100 text-gray-800
                 p-5">
@@ -26,6 +26,9 @@
                     </li>
                     <li>
                         <a href="/task">Task</a>
+                    </li>
+                    <li>
+                        <a href="/reminder">Reminder</a>
                     </li>
                 </ul>
             </div>
